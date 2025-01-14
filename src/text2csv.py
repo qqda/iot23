@@ -32,6 +32,7 @@ config = load_config('config.yaml')
 
 def download_file(url, local_path):
     # Ensure local_path is a Path object
+    print("Prep File Downloading...")
     local_path = Path(local_path)
 
     # Check if file exists locally
