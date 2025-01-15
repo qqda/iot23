@@ -160,6 +160,9 @@ if __name__ == '__main__':
     save_csv = config['data_dir'] + config['preprocess']['processed_data']
     FIG_DIR = config['result_dir'] + 'data_plots/'
 
+    print('data_file: ', data_file)
+    print('save_csv: ', save_csv)
+    
     # create folders if not exist
     Path(FIG_DIR).mkdir(parents=True, exist_ok=True)
     Path(save_csv.rsplit('/', 1)[0]).mkdir(parents=True, exist_ok=True)
