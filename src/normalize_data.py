@@ -194,7 +194,7 @@ def perform_norm(raw_data, normalize_file):
     elif os.path.isfile(raw_data):
         df = load_data(raw_data)
     else:
-        print('Unknown raw data!')
+        print('Unknown raw data: ',raw_data)
         exit(1)
 
     df = df.rename(columns={'detailed-label': 'multi_label'})
