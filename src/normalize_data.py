@@ -251,3 +251,4 @@ if __name__ == '__main__':
     Path(normalize_file.rsplit('/', 1)[0]).mkdir(parents=True, exist_ok=True)
     # perform normalization
     perform_norm(raw_data, normalize_file)
+    print('normalize_data done')
