@@ -300,3 +300,4 @@ if __name__ == '__main__':
     assert len(cols) > 0, 'No columns found!'
     chunk_size = config['preprocess']['chunk_size']
     file2rows(config, labeled_files, cols, chunk_size)
+    print('finished')
