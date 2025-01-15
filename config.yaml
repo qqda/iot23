@@ -17,7 +17,7 @@ preprocess:
     # If 'full', it converts each text file into csv file.
   chunk_size: 1000000
   # a single raw file or dir of all .csv files with path relative to data_dir
-  raw_data: raw/EdgeIIoTset.csv
+  raw_data: raw/chunks-filter/ #raw/EdgeIIoTset.csv
   normalized_data: normalized/EdgeIIoTset.csv # relative to data_dir
   processed_data: processed/EdgeIIoTset.csv # relative to data_dir
   include_history: False # include history column or not
